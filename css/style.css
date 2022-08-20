@@ -28,43 +28,45 @@ body {
 .shop-register {
   padding-top: 15px;
   padding-right: 50px;
-
-  .register {
-    font-size: 16px;
-    line-height: 19px;
-  }
+}
+.shop-register .register {
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .shop-login {
   padding-top: 15px;
   padding-right: 31px;
-
-  .login {
-    font-size: 16px;
-    line-height: 19px;
-  }
+}
+.shop-login .login {
+  font-size: 16px;
+  line-height: 19px;
 }
 
 nav {
   padding-top: 16px;
-  .nav-text {
-    font-size: 20px;
-    font-weight: 400;
-  }
+}
+nav .nav-text {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .home {
   padding-left: 25px;
 }
+
 .men {
   padding-left: 24px;
 }
+
 .women {
   padding-left: 37px;
 }
+
 .kid {
   padding-left: 39px;
 }
+
 .sport {
   padding-left: 40px;
 }
@@ -74,12 +76,12 @@ nav {
 }
 
 .product-name {
-  // padding-top: 124px;
   font-size: 40px;
   font-weight: 300;
   color: #000000;
   padding-left: 65px;
 }
+
 .product-name2 {
   font-size: 20px;
   font-weight: 300;
@@ -87,6 +89,7 @@ nav {
   padding-left: 65px;
   padding-bottom: 10px;
 }
+
 .product-button {
   border: none;
   margin-left: 65px;
@@ -101,18 +104,18 @@ nav {
 
 .carousel-control-prev {
   width: 7%;
-  .prev-button {
-    font-size: 100px;
-    color: #000;
-  }
+}
+.carousel-control-prev .prev-button {
+  font-size: 100px;
+  color: #000;
 }
 
 .carousel-control-next {
   width: 7%;
-  .next-button {
-    font-size: 100px;
-    color: #000;
-  }
+}
+.carousel-control-next .next-button {
+  font-size: 100px;
+  color: #000;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -127,6 +130,7 @@ nav {
   position: relative;
   z-index: 1;
 }
+
 .img-slide {
   position: absolute;
   z-index: -1;
@@ -142,17 +146,17 @@ nav {
 .product-feature {
   position: relative;
   padding-top: 15%;
-  .title-product {
-    text-align: center;
-    .title-h1 {
-      font-style: normal;
-      font-weight: 400;
-      font-size: 40px;
-      line-height: 48px;
-      color: #000000;
-      margin-bottom: 89px;
-    }
-  }
+}
+.product-feature .title-product {
+  text-align: center;
+}
+.product-feature .title-product .title-h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 89px;
 }
 
 .card {
@@ -176,6 +180,7 @@ nav {
   padding: 13px 18.5%;
   background-color: #f8b653;
 }
+
 .money {
   width: 50%;
   text-align: center;
@@ -190,29 +195,30 @@ nav {
   font-size: 24px;
   color: #000000;
 }
+
 .card-text {
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   padding-left: 23px;
-  color: #CBC9C9;;
+  color: #CBC9C9;
 }
 
-.footer{
-    padding-top: 55px;
+.footer {
+  padding-top: 55px;
 }
 
-.card--items{
+.card--items {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
-.register-pad{
+.register-pad {
   padding-top: 50px;
 }
 
-input{
+input {
   padding: 20px 0;
   font-size: 30px;
   border: none;
@@ -220,11 +226,11 @@ input{
   outline: none;
 }
 
-.mini-footer{
+.mini-footer {
   padding-top: 65px;
 }
 
-button{
+button {
   background-color: #AE18E2;
   color: #ffffff;
   border: none;

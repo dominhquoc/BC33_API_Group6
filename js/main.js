@@ -26,12 +26,12 @@ function renderShoes(arr){
                     <h5 class="card-title">${shoes.name}</h5>
                     <p class="card-text">${shoes.description}</p>
                     <div class="d-flex justify-content-between align-item-center">
-                        <button class="button-product">
+                        <button class="button-product col-6">
                             <a href="#" class="text-decoration-none text-white">
                                 Buy now
                             </a>
                         </button>
-                        <span class="money">${shoes.price}$</span>
+                        <span class="money col-6">${shoes.price}$</span>
                     </div>
                 </div>
             </div>

@@ -160,10 +160,9 @@ nav .nav-text {
 }
 
 .card {
-  margin-left: 99px;
+  margin: 25px;
   border: none;
   background-color: #f8f8f8;
-  margin-bottom: 49px;
 }
 
 .card-img-top {
@@ -177,12 +176,11 @@ nav .nav-text {
 
 .button-product {
   border: none;
-  padding: 13px 18.5%;
+  padding: 13px;
   background-color: #f8b653;
 }
 
 .money {
-  width: 50%;
   text-align: center;
   line-height: 50px;
   background: #dedddc;
@@ -212,6 +210,7 @@ nav .nav-text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  margin: 50px;
 }
 
 .register-pad {

@@ -1,0 +1,58 @@
+.img-football {
+    margin-left: 85px;
+  }
+  
+  .product-name {
+    // padding-top: 124px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 65px;
+  }
+  .product-name2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 65px;
+    padding-bottom: 10px;
+  }
+
+  .carousel-control-prev {
+    width: 7%;
+    .prev-button {
+      font-size: 100px;
+      color: #000;
+    }
+  }
+  
+  .carousel-control-next {
+    width: 7%;
+    .next-button {
+      font-size: 100px;
+      color: #000;
+    }
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #000000;
+  }
+  
+  .carousel {
+    position: relative;
+    z-index: 1;
+  }
+  .img-slide {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .carousel-indicators {
+    margin-bottom: -2rem;
+  }

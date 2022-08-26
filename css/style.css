@@ -240,6 +240,47 @@ button {
   border: none;
 }
 
+.detail {
+  padding-top: 67px;
+}
+
+.size-shoes {
+  display: flex;
+  padding: 0;
+}
+.size-shoes li {
+  margin-right: 20px;
+  list-style-type: none;
+  width: 30px;
+  height: 30px;
+  background-color: #cccccc;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.button-detail-1 {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.product-detail {
+  position: relative;
+  padding-top: 4%;
+}
+.product-detail .title-product {
+  text-align: center;
+}
+.product-detail .title-product .title-h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 89px;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }

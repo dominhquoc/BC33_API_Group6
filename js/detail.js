@@ -22,7 +22,7 @@ window.onload = function () {
     var html = "";
     for (var i = 0; i < shoes.length; i++) {
       var giay = shoes[i];
-      html += `
+      html = `
       <div class="col-4">
       <img src="${giay.image}" alt="abc">
        </div>
@@ -52,6 +52,7 @@ window.onload = function () {
       `;
     }
     document.querySelector(".detail-row").innerHTML = html;
+    console.log(html);
   }
 
   getDataDetail();

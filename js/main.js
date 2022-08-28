@@ -3,6 +3,7 @@ async function getData() {
     var result = await axios({
       url: "https://shop.cyberlearn.vn/api/Product",
       method: "GET",
+      ResponseType: JSON,
     });
     renderShoes(result.data.content);
   } catch (err) {
@@ -39,3 +40,4 @@ function renderShoes(arr) {
 
   document.querySelector(".card--items").innerHTML = html;
 }
+

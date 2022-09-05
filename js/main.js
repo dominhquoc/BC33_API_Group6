@@ -27,7 +27,7 @@ function renderShoes(arr) {
                     <p class="card-text">${shoes.description}</p>
                     <div class="d-flex justify-content-between align-item-center">                   
                         <button class="button-product col-6" onclick="buy('${shoes.id}')">
-                                <a href="../detail.html?productid=${shoes.id}" class="text-decoration-none fs-5 text-dark">
+                                <a href="./detail.html?productid=${shoes.id}" class="text-decoration-none fs-5 text-dark">
                                      Buy now
                                 </a>
                         </button>                     
